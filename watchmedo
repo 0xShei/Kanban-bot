@@ -1,0 +1,1 @@
+watchmedo shell-command --patterns="*.py" --recursive --command='echo 🔄 File changed: ${watch_src_path}' .
